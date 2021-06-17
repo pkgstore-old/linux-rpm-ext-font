@@ -581,11 +581,11 @@ META-package for install and configure fonts.
 
 
 %changelog
-* Jun Thu 17 2021 Package Store <kitsune.solar@gmail.com> - 1.0.2-100
+* Thu Jun 17 2021 Package Store <kitsune.solar@gmail.com> - 1.0.2-100
 - UPD: Move to GitHub.
 - UPD: License.
 
-* Jun Thu 25 2020 Package Store <kitsune.solar@gmail.com> - 1.0.1-100
+* Thu Jun 25 2020 Package Store <kitsune.solar@gmail.com> - 1.0.1-100
 - ADD: MS Fonts and Fira Code.
 
 * Sun Jul 28 2019 Package Store <kitsune.solar@gmail.com> - 1.0.0-101
