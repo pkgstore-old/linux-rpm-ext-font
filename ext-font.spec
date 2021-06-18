@@ -1,7 +1,7 @@
 %global d_conf                  %{_sysconfdir}/fonts
 %global d_fonts                 %{_datadir}/fonts/fonts.custom.d
 
-%global release_prefix          100
+%global release_prefix          101
 
 Name:                           ext-font
 Version:                        1.0.2
@@ -583,6 +583,9 @@ META-package for install and configure fonts.
 
 
 %changelog
+* Fri Jun 18 2021 Package Store <kitsune.solar@gmail.com> - 1.0.2-101
+- UPD: New build for latest changes.
+
 * Thu Jun 17 2021 Package Store <kitsune.solar@gmail.com> - 1.0.2-100
 - UPD: Move to GitHub.
 - UPD: License.
