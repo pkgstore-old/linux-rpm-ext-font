@@ -1,10 +1,10 @@
 %global d_conf                  %{_sysconfdir}/fonts
 %global d_fonts                 %{_datadir}/fonts/fonts.custom.d
 
-%global release_prefix          101
+%global release_prefix          100
 
 Name:                           ext-font
-Version:                        1.0.2
+Version:                        1.0.3
 Release:                        %{release_prefix}%{?dist}
 Summary:                        META-package for install and configure fonts
 License:                        MIT
@@ -583,6 +583,9 @@ META-package for install and configure fonts.
 
 
 %changelog
+* Sun Jun 20 2021 Package Store <kitsune.solar@gmail.com> - 1.0.3-100
+- UPD: "local.conf" - Add "Noto Emoji Color".
+
 * Fri Jun 18 2021 Package Store <kitsune.solar@gmail.com> - 1.0.2-101
 - UPD: New build for latest changes.
 
