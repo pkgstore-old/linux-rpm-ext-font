@@ -36,9 +36,9 @@ META-package for install and configure fonts.
 %{__install} -dp -m 0755 %{buildroot}%{d_fonts}/fira-code
 %{__install} -dp -m 0755 %{buildroot}%{d_fonts}/microsoft
 
-%{__install} -Dp -m 0644 fira-code-fonts/*.ttf \
+%{__install} -Dp -m 0644 fonts/fira-code/*.ttf \
   %{buildroot}%{d_fonts}/fira-code/
-%{__install} -Dp -m 0644 microsoft-fonts/*.ttf \
+%{__install} -Dp -m 0644 fonts/microsoft/*.ttf \
   %{buildroot}%{d_fonts}/microsoft/
 %{__install} -Dp -m 0644 local.conf \
   %{buildroot}%{d_conf}/local.conf
