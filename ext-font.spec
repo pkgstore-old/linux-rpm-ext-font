@@ -26,7 +26,9 @@ META-package for install and configure fonts.
 # -------------------------------------------------------------------------------------------------------------------- #
 
 %prep
+%setup -q
 
+%build
 
 %install
 %{__install} -dp -m 0755 %{buildroot}%{d_fonts}
