@@ -1,3 +1,4 @@
+%global debug_package           %{nil}
 %global d_conf                  %{_sysconfdir}/fonts
 %global d_fonts                 %{_datadir}/fonts/fonts.custom.d
 
